@@ -1,0 +1,8 @@
+/.android/
+/.direnv/
+/.gradle/
+/.idea/
+/.pub-cache/
+# Default Value for flutterProjectFolder which will almost certainly change
+/myproject/
+
