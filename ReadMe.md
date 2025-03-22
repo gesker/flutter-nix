@@ -1,4 +1,4 @@
-# flutter-env-nix
+# flutter-flake-develop-simple
 
 A very simple [flutter](https://flutter.dev/) environment using packages provided by [nix package manager](https://nixos.org/download/).
 
@@ -18,11 +18,11 @@ clone repo, update variables in [optionsFlutterCreate.nix](optionsFlutterCreate.
 ## detailed
 
 - clone repository
-  - `git clone https://github.com/gesker/flutter-env-nix`
+  - `git clone https://github.com/gesker/flutter-flake-develop-simple`
 - delete .git folder
-  -  `rm -rf flutter-env-nix/.git`
+  -  `rm -rf flutter-flake-develop-simple/.git`
 - cd into folder
-  - `cd flutter-env-nix` 
+  - `cd flutter-flake-develop-simple` 
 - Update variables in [optionsFlutterCreate.nix](optionsFlutterCreate.nix)
   - values in  [optionsFlutterCreate.nix](optionsFlutterCreate.nix) are used in execution of `flutter create` command
   - **Note**: The default folder specified for the flutter project `myproject` is already in [.gitignore](.gitignore)
